@@ -8,10 +8,14 @@ export default function Header() {
         <title>Issa Salman</title>
         <link rel="icon" href="./icon1.png" />
       </Head>
-      <nav class="flex items-center justify-between flex-wrap bg-zinc-900 p-6">
+      <nav class="flex items-center justify-between flex-wrap bg-zinc-900 p-6 mb-6 bg-opacity-20">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-        
-          <span class="font-semibold text-xl tracking-tight">My Portfolio</span>
+          <span class="font-semibold  tracking-tight text-2xl">  <Link
+                className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+                href="/"
+              >
+               My Portfolio
+              </Link></span>
         </div>
         <div class="block lg:hidden">
           <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -27,26 +31,32 @@ export default function Header() {
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
-            >
-              Projects
+            <a class="block mt-4 lg:inline-block text-xl lg:mt-0 text-gray-200 hover:text-white mr-4">
+              <Link
+                className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+                href="projects"
+              >
+                Projects
+              </Link>
             </a>
             <a
               href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
-            >
-              Skills
-            </a>
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white text-xl"
             >
               Blog
             </a>
           </div>
-        
+          <div className="profile-options">
+            {/* <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  Hire Me
+</button> */}
+
+            <a href="Issa-Salman.pdf" download="Issa-Salman.pdf">
+              <button class="bg-zinc-700 hover:bg-zinc-900 text-white font-bold py-2 px-4 rounded">
+                Get Resume
+              </button>
+            </a>
+          </div>
         </div>
       </nav>
     </>
