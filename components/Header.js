@@ -39,12 +39,12 @@ export default function Header() {
                 Projects
               </Link>
             </a>
-            <a
+            {/* <a
               href="#responsive-header"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white text-xl"
             >
               Blog
-            </a>
+            </a> */}
           </div>
           <div className="profile-options">
             {/* <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
