@@ -44,6 +44,7 @@ export default function profile() {
                     ●A website to make it easier for people to Rent and Buy cars{" "}
                     <br></br>● Gives people the chance to sell or rent their
                     owned Vehicle
+                    <br/>● Built with JavaScript, HTML, pure CSS
                   </p>
                   <a
                     href="https://fastauto5.github.io/FastAuto/"
@@ -93,8 +94,9 @@ export default function profile() {
                   </h3>
                   <p class="text-base text-dark leading-relaxed  text-justify mb-7">
                     ●View paintings from different museums all over the
-                    world.cars <br></br>● Book a ticket for events made in
-                    museums.
+                    world.cars <br/>● Book a ticket for events made in
+                    museums.<br/>●Built with ReactJS, Bootstrap, NodeJS, MongoDB
+                
                   </p>
                   <a
                     href="https://objective-morse-eb4b96.netlify.app/"
@@ -143,17 +145,19 @@ export default function profile() {
                     </a>
                   </h3>
                   <p class="text-base text-dark leading-relaxed text-justify mb-7">
-                    ●Create a website for Fifa world cup 2022 that has API for
-                    all previous world cups and the user will log in and see
-                    these data like who won what where the teamscars <br></br> ●
+                    ●A website for Fifa world cup 2022 that has API for
+                     world cups and the user will log in and see
+                    the data <br></br> ●
                     Book Tickets for The World Cup matches cars <br></br>● Vote
                     for the favorite team
+                    <br/>● Built with Django, NextJS, Tailwindcss
                   </p>
                   <a
                     href="https://world-cup-22-frontend.vercel.app/"
                     class="
                     bg-zinc-900
                      inline-block
+                     mt-7
                      py-2
                      px-7
                      border border-[#E5E7EB]

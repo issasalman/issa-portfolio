@@ -1,12 +1,11 @@
-import React from 'react'
-import Main from '../components/Main'
+import React from "react";
+import Main from "../components/Main";
+import data from "../data";
 export default function index() {
-    return (
-      
-              
-           < Main />
-
-
-      
-    )
+  console.log(data[0][202001]);
+  return (
+    <>
+      <Main />
+    </>
+  );
 }

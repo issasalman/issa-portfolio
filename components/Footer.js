@@ -7,9 +7,9 @@ export default function Footer() {
             <div className='w-full  text-gray-200 bg-zinc-900 bottom-0 bg-opacity-20'>
 
                 <div class="flex flex-col items-center justify-center mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12">
-                    <Link href="/">
+                  
                         <img class='cursor-grab	hover:scale-110 animate-pulse' src='./cont.png' width="200" height="200" />
-                    </Link>
+                   
 
                     <div class="flex items-center gap-x-8 mt-6">
 

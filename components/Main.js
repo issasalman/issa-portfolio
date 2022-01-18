@@ -45,7 +45,7 @@ export default function Main() {
                             </h1>
 
                         </div>
-                        <div className="flex justify-center  mt-32">
+                        <div className="flex justify-center  mt-24">
                             <img className=" mx-4 animate-pulse" width="30" src="cf.png"/>
                             <img className="mx-4 animate-pulse" width="30" src="ltuc.png"/>
                             <img className="mx-4 animate-pulse" width="30" src="hu.jpg"/>
