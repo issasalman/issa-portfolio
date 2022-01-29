@@ -1,7 +1,16 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
 export default function Header() {
+  useEffect(() => {
+  
+        const btn = document.getElementById("mobileBtn");
+        const list = document.getElementById("mobileList");
+        btn.addEventListener("click", () => {
+          list.classList.toggle("hidden");
+        });
+ 
+}, []);
   return (
     <>
       <Head>
@@ -18,7 +27,7 @@ export default function Header() {
               </Link></span>
         </div>
         <div class="block lg:hidden">
-          <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+          <button class=" flex items-center px-3 py-2 border rounded text-gray-500 border-gray-400" id="mobileBtn">
             <svg
               class="fill-current h-3 w-3"
               viewBox="0 0 20 20"
@@ -29,7 +38,7 @@ export default function Header() {
             </svg>
           </button>
         </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div id="mobileList" class="  lg:visible hidden w-full block flex-grow flex items-center justify-between lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
             <a class="block mt-4 lg:inline-block text-xl lg:mt-0 text-gray-200 hover:text-white mr-4">
               <Link

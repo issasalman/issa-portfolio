@@ -21,7 +21,7 @@ export default function Main() {
                     <div className="bg-[url('/bgw.jpg')]   md:w-1/2 xl:w-1/3 md:ml-20 rounded-3xl  sm:overflow-auto overflow-auto h-60 md:h-auto border-4">
                         <div className="grid justify-center  ">
                             {" "}
-                            <h1 className="text-gray-100 my-14  md:text-3xl text-l">
+                            <h1 className="text-gray-100 my-12  md:text-3xl text-l">
                                 <Typical
                                     loop={Infinity}
                                     steps={[
@@ -56,7 +56,7 @@ export default function Main() {
                     </div>
 
                     <div className=" opacity-80  md:w-1/4 md:mr-20">
-                        <img class=" rounded-full border-4 hover:scale-110 cursor-grab" src="issaf.jpg"/>
+                        <img class=" rounded-full mb-10 md:mb-1 lg:mb-1 border-4 hover:scale-110 cursor-grab" src="issaf.jpg"/>
 
                     </div>
 
