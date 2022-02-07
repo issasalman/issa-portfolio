@@ -17,6 +17,7 @@ export default function Main() {
               Hello, I'M <span className="highlighted-text">Issa Salman</span>
             </span>
           </div> */}
+          
                 <div className="flex flex-wrap-reverse lg:flex lg:flex-wrap-reverse justify-between mx-10 ">
                     <div className="bg-[url('/bgw.jpg')]   md:w-1/2 xl:w-1/3 md:ml-20 rounded-3xl  sm:overflow-auto overflow-auto h-60 md:h-auto border-4">
                         <div className="grid justify-center  ">
@@ -29,7 +30,7 @@ export default function Main() {
                                         2000,
                                         "Im Issa Salman 😇",
                                         2000,
-                                        "Software Developer 💓",
+                                        "Software Engineer 💓",
                                         2000,
                                     ]}
                                 />
